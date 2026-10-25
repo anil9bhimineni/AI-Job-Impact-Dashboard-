@@ -1,0 +1,33 @@
+{
+  "name": "global-ai-impact-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1 --open",
+    "dev": "node scripts/dev.mjs",
+    "api": "node server/index.mjs",
+    "smoke:whatsapp": "node scripts/smoke-whatsapp.mjs",
+    "audit:roles": "node scripts/audit-role-scores.mjs",
+    "generate:roles": "node scripts/generate-india-jobs-dataset.mjs",
+    "generate:platform-seed": "node scripts/generate-platform-reference-migration.mjs",
+    "refresh:data": "node scripts/refresh-layoffs.mjs",
+    "refresh:data:offline": "node scripts/refresh-layoffs.mjs --from-raw",
+    "validate:data": "node scripts/seed-sample.js",
+    "test": "node --test tests/*.test.mjs",
+    "build": "vite build && node scripts/generate-role-pages.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.112.0",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "supabase": "2.111.0"
+  }
+}

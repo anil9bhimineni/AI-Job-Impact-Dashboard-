@@ -1,0 +1,56 @@
+{
+  "source": "Layoffs.fyi public Airtable shared view",
+  "retrieved_at": "2026-10-25T08:36:52.240Z",
+  "latest_event_date": "2026-10-22",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_year_totals": {
+    "2020": {
+      "employees": 80998,
+      "companies": 598,
+      "events": 635
+    },
+    "2021": {
+      "employees": 15823,
+      "companies": 43,
+      "events": 44
+    },
+    "2022": {
+      "employees": 165269,
+      "companies": 1064,
+      "events": 1231
+    },
+    "2023": {
+      "employees": 265605,
+      "companies": 1192,
+      "events": 1388
+    },
+    "2024": {
+      "employees": 152922,
+      "companies": 552,
+      "events": 634
+    },
+    "2025": {
+      "employees": 122606,
+      "companies": 278,
+      "events": 333
+    },
+    "2026": {
+      "employees": 135246,
+      "companies": 333,
+      "events": 377
+    }
+  },
+  "rows": 4642,
+  "rows_with_known_headcount": 3029,
+  "sum_known_headcount": 938469,
+  "countries": 66,
+  "quarantined_rows": 2
+}

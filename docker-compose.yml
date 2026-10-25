@@ -1,0 +1,25 @@
+services:
+  web:
+    build: .
+    ports:
+      - "4173:4173"
+    environment:
+      NODE_ENV: production
+      VITE_API_BASE_URL: http://localhost:8080/api/v1
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: jobs_dashboard
+      POSTGRES_USER: jobs_dashboard
+      POSTGRES_PASSWORD: jobs_dashboard_local
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/20-seed.sql:ro
+
+volumes:
+  postgres_data:

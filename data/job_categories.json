@@ -1,0 +1,398 @@
+[
+  {
+    "job_category": "Software / Tech",
+    "functions": [
+      "AI & Machine Learning",
+      "Business Analysis",
+      "Data & Analytics",
+      "Design",
+      "Engineering",
+      "Engineering Leadership",
+      "Infrastructure & Cloud",
+      "Product",
+      "Project / Program Management",
+      "Quality Assurance",
+      "Security",
+      "Support & Operations"
+    ],
+    "job_roles": [
+      "Software Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Mobile App Developer",
+      "QA Engineer / Software Tester",
+      "SDET / Test Automation Engineer",
+      "AI QA Engineer / Model Evaluation Tester",
+      "Product Manager",
+      "Associate Product Manager",
+      "Project Manager - IT",
+      "Scrum Master",
+      "Engineering Manager / Lead Engineer",
+      "DevOps Engineer / Site Reliability Engineer",
+      "Cloud Solutions Architect",
+      "Data Analyst",
+      "Data Engineer",
+      "Machine Learning Engineer",
+      "Cybersecurity Analyst",
+      "UI/UX Designer",
+      "Business Analyst - IT",
+      "Technical Support Engineer"
+    ]
+  },
+  {
+    "job_category": "BPO / Shared Services",
+    "functions": [
+      "Back Office Operations",
+      "Customer Operations",
+      "Operations Leadership",
+      "Quality Assurance"
+    ],
+    "job_roles": [
+      "Customer Support Executive",
+      "Voice Process Associate",
+      "Non-Voice Process Associate",
+      "KYC Operations Analyst",
+      "Claims Processing Associate",
+      "Quality Analyst - BPO",
+      "Team Leader - BPO"
+    ]
+  },
+  {
+    "job_category": "BFSI",
+    "functions": [
+      "Branch Operations",
+      "Compliance & Legal",
+      "Operations",
+      "Risk & Underwriting",
+      "Sales & Relationship Management"
+    ],
+    "job_roles": [
+      "Bank Relationship Manager",
+      "Credit Analyst",
+      "Branch Operations Manager",
+      "Loan Officer",
+      "Insurance Advisor",
+      "Wealth Manager",
+      "Risk Analyst",
+      "Compliance Officer - BFSI",
+      "Fintech Operations Analyst"
+    ]
+  },
+  {
+    "job_category": "Sales & Marketing",
+    "functions": [
+      "Marketing",
+      "Marketing Analytics",
+      "Sales",
+      "Sales Leadership"
+    ],
+    "job_roles": [
+      "Field Sales Executive",
+      "Inside Sales Representative",
+      "Key Account Manager",
+      "Area Sales Manager",
+      "Digital Marketing Specialist",
+      "Performance Marketing Manager",
+      "Brand Manager",
+      "Market Research Analyst",
+      "Content Marketing Specialist"
+    ]
+  },
+  {
+    "job_category": "Finance & Accounting",
+    "functions": [
+      "Accounting",
+      "Accounting Operations",
+      "Audit & Controls",
+      "FP&A",
+      "Payroll",
+      "Taxation"
+    ],
+    "job_roles": [
+      "Accountant",
+      "Accounts Payable Executive",
+      "Accounts Receivable Executive",
+      "GST Executive",
+      "Financial Analyst",
+      "Internal Auditor",
+      "Chartered Accountant",
+      "Payroll Executive"
+    ]
+  },
+  {
+    "job_category": "HR, Admin & Legal",
+    "functions": [
+      "Administration",
+      "Compliance & Legal",
+      "Human Resources",
+      "Legal"
+    ],
+    "job_roles": [
+      "HR Recruiter",
+      "HR Business Partner",
+      "Learning and Development Specialist",
+      "Office Administrator",
+      "Executive Assistant",
+      "Legal Associate",
+      "Company Secretary"
+    ]
+  },
+  {
+    "job_category": "Manufacturing",
+    "functions": [
+      "Industrial Engineering",
+      "Operations Leadership",
+      "Plant Engineering",
+      "Production Operations",
+      "Quality Assurance",
+      "Skilled Trades"
+    ],
+    "job_roles": [
+      "CNC Machine Operator",
+      "Production Supervisor",
+      "Maintenance Engineer",
+      "Quality Control Inspector",
+      "Process Engineer",
+      "Plant Manager",
+      "Tool and Die Maker",
+      "Welder / Fabricator",
+      "Assembly Line Worker"
+    ]
+  },
+  {
+    "job_category": "Automotive & EV",
+    "functions": [
+      "Engineering",
+      "Field Service",
+      "Sales",
+      "Supply Chain Planning"
+    ],
+    "job_roles": [
+      "Automobile Service Technician",
+      "EV Battery Technician",
+      "Automotive Design Engineer",
+      "EV Charging Station Technician",
+      "Vehicle Sales Consultant",
+      "Auto Parts Supply Planner"
+    ]
+  },
+  {
+    "job_category": "Construction & Infrastructure",
+    "functions": [
+      "Commercial & Contracts",
+      "Project / Program Management",
+      "Safety & Compliance",
+      "Site Engineering",
+      "Skilled Trades"
+    ],
+    "job_roles": [
+      "Civil Site Engineer",
+      "Quantity Surveyor",
+      "Project Planner",
+      "Safety Officer",
+      "Electrician",
+      "Plumber",
+      "Surveyor",
+      "Construction Project Manager"
+    ]
+  },
+  {
+    "job_category": "Healthcare & Pharma",
+    "functions": [
+      "Clinical Care",
+      "Clinical Research",
+      "Diagnostics",
+      "Healthcare Operations",
+      "Pharma Manufacturing",
+      "Pharmacy",
+      "Sales"
+    ],
+    "job_roles": [
+      "Staff Nurse",
+      "Doctor / Medical Officer",
+      "Pharmacist",
+      "Medical Lab Technician",
+      "Radiology Technician",
+      "Hospital Administrator",
+      "Medical Sales Representative",
+      "Clinical Research Associate",
+      "Pharma Production Chemist"
+    ]
+  },
+  {
+    "job_category": "Education & Training",
+    "functions": [
+      "Content & Curriculum",
+      "Student Services",
+      "Teaching",
+      "Training Operations"
+    ],
+    "job_roles": [
+      "School Teacher",
+      "Pre-primary Teacher",
+      "College Lecturer",
+      "Tutor / Coaching Faculty",
+      "EdTech Content Developer",
+      "Instructional Designer",
+      "Academic Counsellor",
+      "Training Coordinator"
+    ]
+  },
+  {
+    "job_category": "Retail & E-commerce",
+    "functions": [
+      "Category Management",
+      "Customer Operations",
+      "E-commerce Operations",
+      "Inventory Operations",
+      "Merchandising",
+      "Store Operations"
+    ],
+    "job_roles": [
+      "Retail Store Manager",
+      "Sales Associate - Retail",
+      "Cashier",
+      "Category Manager - E-commerce",
+      "Merchandiser",
+      "Inventory Executive",
+      "Customer Experience Manager",
+      "Marketplace Operations Executive"
+    ]
+  },
+  {
+    "job_category": "Logistics & Supply Chain",
+    "functions": [
+      "Delivery Operations",
+      "Fleet Operations",
+      "Logistics Operations",
+      "Procurement",
+      "Supply Chain Planning",
+      "Trade Operations",
+      "Warehouse Operations"
+    ],
+    "job_roles": [
+      "Warehouse Associate",
+      "Warehouse Manager",
+      "Supply Chain Analyst",
+      "Procurement Executive",
+      "Logistics Coordinator",
+      "Fleet Manager",
+      "Last-mile Delivery Supervisor",
+      "Import Export Executive"
+    ]
+  },
+  {
+    "job_category": "Agriculture & Allied",
+    "functions": [
+      "Allied Activities",
+      "Dairy Operations",
+      "Farm Operations",
+      "Field Advisory",
+      "Production Operations",
+      "Sales",
+      "Supply Chain Planning"
+    ],
+    "job_roles": [
+      "Agriculture Extension Officer",
+      "Farm Supervisor",
+      "Dairy Farm Manager",
+      "Fisheries Technician",
+      "Food Processing Operator",
+      "Agri Input Sales Executive",
+      "Agri Supply Chain Coordinator"
+    ]
+  },
+  {
+    "job_category": "Government & Public Administration",
+    "functions": [
+      "Administration",
+      "Branch Operations",
+      "Program Management",
+      "Public Safety",
+      "Public Works"
+    ],
+    "job_roles": [
+      "Government Clerk",
+      "Public Sector Bank Officer",
+      "Police Constable",
+      "Municipal Engineer",
+      "Data Entry Operator - Government",
+      "Program Officer - NGO / Development"
+    ]
+  },
+  {
+    "job_category": "Gig & Platform Work",
+    "functions": [
+      "Content & Curriculum",
+      "Delivery Operations",
+      "Design",
+      "Field Service",
+      "Mobility Operations",
+      "Warehouse Operations"
+    ],
+    "job_roles": [
+      "Delivery Partner",
+      "Ride-hailing Driver",
+      "Quick Commerce Picker",
+      "Home Service Technician",
+      "Freelance Graphic Designer",
+      "Freelance Content Writer"
+    ]
+  },
+  {
+    "job_category": "Hospitality & Tourism",
+    "functions": [
+      "Food & Beverage Operations",
+      "Food Production",
+      "Guest Services",
+      "Housekeeping",
+      "Travel Operations"
+    ],
+    "job_roles": [
+      "Hotel Front Office Executive",
+      "Chef / Commis Chef",
+      "Housekeeping Supervisor",
+      "Restaurant Manager",
+      "Travel Consultant",
+      "Tour Guide",
+      "Cabin Crew"
+    ]
+  },
+  {
+    "job_category": "Media & Entertainment",
+    "functions": [
+      "Creative Production",
+      "Design",
+      "Editorial",
+      "Marketing",
+      "Marketing Operations"
+    ],
+    "job_roles": [
+      "Video Editor",
+      "Graphic Designer",
+      "Journalist / Reporter",
+      "Social Media Manager",
+      "Content Creator",
+      "Animation Artist",
+      "Ad Operations Executive"
+    ]
+  },
+  {
+    "job_category": "Energy, Utilities & Telecom",
+    "functions": [
+      "Engineering",
+      "Field Service",
+      "Infrastructure & Cloud",
+      "Project / Program Management"
+    ],
+    "job_roles": [
+      "Solar PV Technician",
+      "Electrical Engineer - Utilities",
+      "Telecom Tower Technician",
+      "Network Operations Center Engineer",
+      "Field Service Engineer",
+      "Renewable Energy Project Manager",
+      "Smart Meter Installation Technician"
+    ]
+  }
+]

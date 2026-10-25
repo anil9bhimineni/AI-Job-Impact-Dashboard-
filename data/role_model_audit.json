@@ -1,0 +1,2527 @@
+{
+  "model_version": "2026.10-v1",
+  "model_updated_at": "2026-10-14",
+  "scope": "All 157 dashboard roles, India calibration",
+  "metric_note": "Demand index is a modelled relative signal, not a count of live vacancies or total employment.",
+  "distribution": {
+    "Medium": 111,
+    "High": 31,
+    "Low": 15
+  },
+  "checks_passed": true,
+  "failures": [],
+  "roles": [
+    {
+      "role": "Software Developer",
+      "category": "Software / Tech",
+      "family": "Engineering",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 5/10: automation 6, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Frontend Developer",
+      "category": "Software / Tech",
+      "family": "Engineering",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 6/10: automation 7, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Backend Developer",
+      "category": "Software / Tech",
+      "family": "Engineering",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 5/10: automation 6, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Mobile App Developer",
+      "category": "Software / Tech",
+      "family": "Engineering",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 5/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "QA Engineer / Software Tester",
+      "category": "Software / Tech",
+      "family": "Quality Assurance",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 56,
+      "components": {
+        "automation": 9,
+        "growthWeakness": 7,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 7/10: automation 9, weak-growth 7, routine-task 7, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "SDET / Test Automation Engineer",
+      "category": "Software / Tech",
+      "family": "Quality Assurance",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 5, weak-growth 2, routine-task 7, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "AI QA Engineer / Model Evaluation Tester",
+      "category": "Software / Tech",
+      "family": "Quality Assurance",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 1,
+        "seniorityVulnerability": 2,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 1, routine-task 7, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "Product Manager",
+      "category": "Software / Tech",
+      "family": "Product",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 79,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "Associate Product Manager",
+      "category": "Software / Tech",
+      "family": "Product",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 83,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 2, routine-task 5, seniority 8, reported layoff pressure 5."
+    },
+    {
+      "role": "Project Manager - IT",
+      "category": "Software / Tech",
+      "family": "Project / Program Management",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Scrum Master",
+      "category": "Software / Tech",
+      "family": "Project / Program Management",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 6/10: automation 7, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Engineering Manager / Lead Engineer",
+      "category": "Software / Tech",
+      "family": "Engineering Leadership",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 79,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "DevOps Engineer / Site Reliability Engineer",
+      "category": "Software / Tech",
+      "family": "Infrastructure & Cloud",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 82,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "Cloud Solutions Architect",
+      "category": "Software / Tech",
+      "family": "Infrastructure & Cloud",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 82,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "Data Analyst",
+      "category": "Software / Tech",
+      "family": "Data & Analytics",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 75,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 3
+      },
+      "rationale": "Risk 6/10: automation 7, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 3."
+    },
+    {
+      "role": "Data Engineer",
+      "category": "Software / Tech",
+      "family": "Data & Analytics",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 82,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 3
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 3."
+    },
+    {
+      "role": "Machine Learning Engineer",
+      "category": "Software / Tech",
+      "family": "AI & Machine Learning",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 86,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 3
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 3."
+    },
+    {
+      "role": "Cybersecurity Analyst",
+      "category": "Software / Tech",
+      "family": "Security",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 2, routine-task 7, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "UI/UX Designer",
+      "category": "Software / Tech",
+      "family": "Design",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Business Analyst - IT",
+      "category": "Software / Tech",
+      "family": "Business Analysis",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 6/10: automation 7, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Technical Support Engineer",
+      "category": "Software / Tech",
+      "family": "Support & Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Customer Support Executive",
+      "category": "BPO / Shared Services",
+      "family": "Customer Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 70,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Voice Process Associate",
+      "category": "BPO / Shared Services",
+      "family": "Customer Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 70,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Non-Voice Process Associate",
+      "category": "BPO / Shared Services",
+      "family": "Back Office Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "KYC Operations Analyst",
+      "category": "BPO / Shared Services",
+      "family": "Back Office Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Claims Processing Associate",
+      "category": "BPO / Shared Services",
+      "family": "Back Office Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Quality Analyst - BPO",
+      "category": "BPO / Shared Services",
+      "family": "Quality Assurance",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 7/10: automation 8, weak-growth 6, routine-task 7, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Team Leader - BPO",
+      "category": "BPO / Shared Services",
+      "family": "Operations Leadership",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Bank Relationship Manager",
+      "category": "BFSI",
+      "family": "Sales & Relationship Management",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 87,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Credit Analyst",
+      "category": "BFSI",
+      "family": "Risk & Underwriting",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Branch Operations Manager",
+      "category": "BFSI",
+      "family": "Branch Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Loan Officer",
+      "category": "BFSI",
+      "family": "Sales & Relationship Management",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Insurance Advisor",
+      "category": "BFSI",
+      "family": "Sales & Relationship Management",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Wealth Manager",
+      "category": "BFSI",
+      "family": "Sales & Relationship Management",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 3, seniority 2, reported layoff pressure 7."
+    },
+    {
+      "role": "Risk Analyst",
+      "category": "BFSI",
+      "family": "Risk & Underwriting",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Compliance Officer - BFSI",
+      "category": "BFSI",
+      "family": "Compliance & Legal",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 69,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 4, routine-task 3, seniority 2, reported layoff pressure 6."
+    },
+    {
+      "role": "Fintech Operations Analyst",
+      "category": "BFSI",
+      "family": "Operations",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Field Sales Executive",
+      "category": "Sales & Marketing",
+      "family": "Sales",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Inside Sales Representative",
+      "category": "Sales & Marketing",
+      "family": "Sales",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Key Account Manager",
+      "category": "Sales & Marketing",
+      "family": "Sales",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 87,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Area Sales Manager",
+      "category": "Sales & Marketing",
+      "family": "Sales Leadership",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Digital Marketing Specialist",
+      "category": "Sales & Marketing",
+      "family": "Marketing",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Performance Marketing Manager",
+      "category": "Sales & Marketing",
+      "family": "Marketing",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 69,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 6, weak-growth 4, routine-task 3, seniority 2, reported layoff pressure 7."
+    },
+    {
+      "role": "Brand Manager",
+      "category": "Sales & Marketing",
+      "family": "Marketing",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Market Research Analyst",
+      "category": "Sales & Marketing",
+      "family": "Marketing Analytics",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Content Marketing Specialist",
+      "category": "Sales & Marketing",
+      "family": "Marketing",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 7/10: automation 8, weak-growth 6, routine-task 7, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Accountant",
+      "category": "Finance & Accounting",
+      "family": "Accounting",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Accounts Payable Executive",
+      "category": "Finance & Accounting",
+      "family": "Accounting Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Accounts Receivable Executive",
+      "category": "Finance & Accounting",
+      "family": "Accounting Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "GST Executive",
+      "category": "Finance & Accounting",
+      "family": "Taxation",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Financial Analyst",
+      "category": "Finance & Accounting",
+      "family": "FP&A",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Internal Auditor",
+      "category": "Finance & Accounting",
+      "family": "Audit & Controls",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 69,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 4, routine-task 3, seniority 2, reported layoff pressure 6."
+    },
+    {
+      "role": "Chartered Accountant",
+      "category": "Finance & Accounting",
+      "family": "Accounting",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 64,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 5/10: automation 6, weak-growth 5, routine-task 3, seniority 2, reported layoff pressure 6."
+    },
+    {
+      "role": "Payroll Executive",
+      "category": "Finance & Accounting",
+      "family": "Payroll",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 6, routine-task 9, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "HR Recruiter",
+      "category": "HR, Admin & Legal",
+      "family": "Human Resources",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 68,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 5, routine-task 7, seniority 8, reported layoff pressure 6."
+    },
+    {
+      "role": "HR Business Partner",
+      "category": "HR, Admin & Legal",
+      "family": "Human Resources",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Learning and Development Specialist",
+      "category": "HR, Admin & Legal",
+      "family": "Human Resources",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Office Administrator",
+      "category": "HR, Admin & Legal",
+      "family": "Administration",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Executive Assistant",
+      "category": "HR, Admin & Legal",
+      "family": "Administration",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 6, routine-task 9, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Legal Associate",
+      "category": "HR, Admin & Legal",
+      "family": "Legal",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Company Secretary",
+      "category": "HR, Admin & Legal",
+      "family": "Compliance & Legal",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 69,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 4, routine-task 3, seniority 2, reported layoff pressure 6."
+    },
+    {
+      "role": "CNC Machine Operator",
+      "category": "Manufacturing",
+      "family": "Production Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Production Supervisor",
+      "category": "Manufacturing",
+      "family": "Production Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Maintenance Engineer",
+      "category": "Manufacturing",
+      "family": "Plant Engineering",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 80,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Quality Control Inspector",
+      "category": "Manufacturing",
+      "family": "Quality Assurance",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 78,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 7, seniority 8, reported layoff pressure 5."
+    },
+    {
+      "role": "Process Engineer",
+      "category": "Manufacturing",
+      "family": "Industrial Engineering",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Plant Manager",
+      "category": "Manufacturing",
+      "family": "Operations Leadership",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 74,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 2,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 2, reported layoff pressure 10."
+    },
+    {
+      "role": "Tool and Die Maker",
+      "category": "Manufacturing",
+      "family": "Skilled Trades",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 92,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 4
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 2, routine-task 2, seniority 5, reported layoff pressure 4."
+    },
+    {
+      "role": "Welder / Fabricator",
+      "category": "Manufacturing",
+      "family": "Skilled Trades",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 4
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 4."
+    },
+    {
+      "role": "Assembly Line Worker",
+      "category": "Manufacturing",
+      "family": "Production Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 80,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Automobile Service Technician",
+      "category": "Automotive & EV",
+      "family": "Field Service",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "EV Battery Technician",
+      "category": "Automotive & EV",
+      "family": "Field Service",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Automotive Design Engineer",
+      "category": "Automotive & EV",
+      "family": "Engineering",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 86,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 4, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 5."
+    },
+    {
+      "role": "EV Charging Station Technician",
+      "category": "Automotive & EV",
+      "family": "Field Service",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Vehicle Sales Consultant",
+      "category": "Automotive & EV",
+      "family": "Sales",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Auto Parts Supply Planner",
+      "category": "Automotive & EV",
+      "family": "Supply Chain Planning",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Civil Site Engineer",
+      "category": "Construction & Infrastructure",
+      "family": "Site Engineering",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 2, routine-task 2, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Quantity Surveyor",
+      "category": "Construction & Infrastructure",
+      "family": "Commercial & Contracts",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 81,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 2, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Project Planner",
+      "category": "Construction & Infrastructure",
+      "family": "Project / Program Management",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Safety Officer",
+      "category": "Construction & Infrastructure",
+      "family": "Safety & Compliance",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 6
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 6."
+    },
+    {
+      "role": "Electrician",
+      "category": "Construction & Infrastructure",
+      "family": "Skilled Trades",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 4
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 4."
+    },
+    {
+      "role": "Plumber",
+      "category": "Construction & Infrastructure",
+      "family": "Skilled Trades",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 4
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 4."
+    },
+    {
+      "role": "Surveyor",
+      "category": "Construction & Infrastructure",
+      "family": "Site Engineering",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 2, routine-task 2, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Construction Project Manager",
+      "category": "Construction & Infrastructure",
+      "family": "Project / Program Management",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 74,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 3, seniority 2, reported layoff pressure 10."
+    },
+    {
+      "role": "Staff Nurse",
+      "category": "Healthcare & Pharma",
+      "family": "Clinical Care",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 96,
+      "components": {
+        "automation": 2,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 3/10: automation 2, weak-growth 2, routine-task 2, seniority 5, reported layoff pressure 8."
+    },
+    {
+      "role": "Doctor / Medical Officer",
+      "category": "Healthcare & Pharma",
+      "family": "Clinical Care",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 93,
+      "components": {
+        "automation": 2,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 2,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 3/10: automation 2, weak-growth 2, routine-task 2, seniority 2, reported layoff pressure 8."
+    },
+    {
+      "role": "Pharmacist",
+      "category": "Healthcare & Pharma",
+      "family": "Pharmacy",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 80,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 8."
+    },
+    {
+      "role": "Medical Lab Technician",
+      "category": "Healthcare & Pharma",
+      "family": "Diagnostics",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 8."
+    },
+    {
+      "role": "Radiology Technician",
+      "category": "Healthcare & Pharma",
+      "family": "Diagnostics",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 8."
+    },
+    {
+      "role": "Hospital Administrator",
+      "category": "Healthcare & Pharma",
+      "family": "Healthcare Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Medical Sales Representative",
+      "category": "Healthcare & Pharma",
+      "family": "Sales",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 8."
+    },
+    {
+      "role": "Clinical Research Associate",
+      "category": "Healthcare & Pharma",
+      "family": "Clinical Research",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 79,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 2, routine-task 3, seniority 2, reported layoff pressure 8."
+    },
+    {
+      "role": "Pharma Production Chemist",
+      "category": "Healthcare & Pharma",
+      "family": "Pharma Manufacturing",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 8
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 8."
+    },
+    {
+      "role": "School Teacher",
+      "category": "Education & Training",
+      "family": "Teaching",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 82,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Pre-primary Teacher",
+      "category": "Education & Training",
+      "family": "Teaching",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "College Lecturer",
+      "category": "Education & Training",
+      "family": "Teaching",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 3, seniority 2, reported layoff pressure 10."
+    },
+    {
+      "role": "Tutor / Coaching Faculty",
+      "category": "Education & Training",
+      "family": "Teaching",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 82,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "EdTech Content Developer",
+      "category": "Education & Training",
+      "family": "Content & Curriculum",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Instructional Designer",
+      "category": "Education & Training",
+      "family": "Content & Curriculum",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Academic Counsellor",
+      "category": "Education & Training",
+      "family": "Student Services",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Training Coordinator",
+      "category": "Education & Training",
+      "family": "Training Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Retail Store Manager",
+      "category": "Retail & E-commerce",
+      "family": "Store Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Sales Associate - Retail",
+      "category": "Retail & E-commerce",
+      "family": "Store Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 80,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Cashier",
+      "category": "Retail & E-commerce",
+      "family": "Store Operations",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 70,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Category Manager - E-commerce",
+      "category": "Retail & E-commerce",
+      "family": "Category Management",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Merchandiser",
+      "category": "Retail & E-commerce",
+      "family": "Merchandising",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 7."
+    },
+    {
+      "role": "Inventory Executive",
+      "category": "Retail & E-commerce",
+      "family": "Inventory Operations",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 73,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 4, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Customer Experience Manager",
+      "category": "Retail & E-commerce",
+      "family": "Customer Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Marketplace Operations Executive",
+      "category": "Retail & E-commerce",
+      "family": "E-commerce Operations",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 73,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 4, routine-task 7, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Warehouse Associate",
+      "category": "Logistics & Supply Chain",
+      "family": "Warehouse Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Warehouse Manager",
+      "category": "Logistics & Supply Chain",
+      "family": "Warehouse Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Supply Chain Analyst",
+      "category": "Logistics & Supply Chain",
+      "family": "Supply Chain Planning",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 3, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Procurement Executive",
+      "category": "Logistics & Supply Chain",
+      "family": "Procurement",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Logistics Coordinator",
+      "category": "Logistics & Supply Chain",
+      "family": "Logistics Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 3, routine-task 7, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Fleet Manager",
+      "category": "Logistics & Supply Chain",
+      "family": "Fleet Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Last-mile Delivery Supervisor",
+      "category": "Logistics & Supply Chain",
+      "family": "Delivery Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 91,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 5, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Import Export Executive",
+      "category": "Logistics & Supply Chain",
+      "family": "Trade Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Agriculture Extension Officer",
+      "category": "Agriculture & Allied",
+      "family": "Field Advisory",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Farm Supervisor",
+      "category": "Agriculture & Allied",
+      "family": "Farm Operations",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 79,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 4, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Dairy Farm Manager",
+      "category": "Agriculture & Allied",
+      "family": "Dairy Operations",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 4, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Fisheries Technician",
+      "category": "Agriculture & Allied",
+      "family": "Allied Activities",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Food Processing Operator",
+      "category": "Agriculture & Allied",
+      "family": "Production Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 80,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Agri Input Sales Executive",
+      "category": "Agriculture & Allied",
+      "family": "Sales",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 7
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 7."
+    },
+    {
+      "role": "Agri Supply Chain Coordinator",
+      "category": "Agriculture & Allied",
+      "family": "Supply Chain Planning",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 3, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Government Clerk",
+      "category": "Government & Public Administration",
+      "family": "Administration",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 6, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Public Sector Bank Officer",
+      "category": "Government & Public Administration",
+      "family": "Branch Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Police Constable",
+      "category": "Government & Public Administration",
+      "family": "Public Safety",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 2,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 2, weak-growth 4, routine-task 2, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Municipal Engineer",
+      "category": "Government & Public Administration",
+      "family": "Public Works",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 77,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Data Entry Operator - Government",
+      "category": "Government & Public Administration",
+      "family": "Administration",
+      "risk": 9,
+      "risk_label": "High",
+      "demand_index": 53,
+      "components": {
+        "automation": 9,
+        "growthWeakness": 8,
+        "seniorityVulnerability": 8,
+        "routineExposure": 9,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 9/10: automation 9, weak-growth 8, routine-task 9, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Program Officer - NGO / Development",
+      "category": "Government & Public Administration",
+      "family": "Program Management",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Delivery Partner",
+      "category": "Gig & Platform Work",
+      "family": "Delivery Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 92,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Ride-hailing Driver",
+      "category": "Gig & Platform Work",
+      "family": "Mobility Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Quick Commerce Picker",
+      "category": "Gig & Platform Work",
+      "family": "Warehouse Operations",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 3, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Home Service Technician",
+      "category": "Gig & Platform Work",
+      "family": "Field Service",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Freelance Graphic Designer",
+      "category": "Gig & Platform Work",
+      "family": "Design",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Freelance Content Writer",
+      "category": "Gig & Platform Work",
+      "family": "Content & Curriculum",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Hotel Front Office Executive",
+      "category": "Hospitality & Tourism",
+      "family": "Guest Services",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Chef / Commis Chef",
+      "category": "Hospitality & Tourism",
+      "family": "Food Production",
+      "risk": 3,
+      "risk_label": "Low",
+      "demand_index": 77,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 3/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Housekeeping Supervisor",
+      "category": "Hospitality & Tourism",
+      "family": "Housekeeping",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 4, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Restaurant Manager",
+      "category": "Hospitality & Tourism",
+      "family": "Food & Beverage Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Travel Consultant",
+      "category": "Hospitality & Tourism",
+      "family": "Travel Operations",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 6, routine-task 7, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Tour Guide",
+      "category": "Hospitality & Tourism",
+      "family": "Travel Operations",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 4, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Cabin Crew",
+      "category": "Hospitality & Tourism",
+      "family": "Guest Services",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 73,
+      "components": {
+        "automation": 5,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 8,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 5, weak-growth 4, routine-task 5, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Video Editor",
+      "category": "Media & Entertainment",
+      "family": "Creative Production",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Graphic Designer",
+      "category": "Media & Entertainment",
+      "family": "Design",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 61,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 5,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 7, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Journalist / Reporter",
+      "category": "Media & Entertainment",
+      "family": "Editorial",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 67,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Social Media Manager",
+      "category": "Media & Entertainment",
+      "family": "Marketing",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 72,
+      "components": {
+        "automation": 6,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 6/10: automation 6, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Content Creator",
+      "category": "Media & Entertainment",
+      "family": "Creative Production",
+      "risk": 8,
+      "risk_label": "High",
+      "demand_index": 63,
+      "components": {
+        "automation": 8,
+        "growthWeakness": 6,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 8/10: automation 8, weak-growth 6, routine-task 7, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Animation Artist",
+      "category": "Media & Entertainment",
+      "family": "Creative Production",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 67,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 5, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Ad Operations Executive",
+      "category": "Media & Entertainment",
+      "family": "Marketing Operations",
+      "risk": 7,
+      "risk_label": "High",
+      "demand_index": 68,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 5,
+        "seniorityVulnerability": 8,
+        "routineExposure": 7,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 7/10: automation 7, weak-growth 5, routine-task 7, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Solar PV Technician",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Field Service",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 84,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 3, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Electrical Engineer - Utilities",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Engineering",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 2, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Telecom Tower Technician",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Field Service",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 10."
+    },
+    {
+      "role": "Network Operations Center Engineer",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Infrastructure & Cloud",
+      "risk": 6,
+      "risk_label": "Medium",
+      "demand_index": 75,
+      "components": {
+        "automation": 7,
+        "growthWeakness": 4,
+        "seniorityVulnerability": 5,
+        "routineExposure": 5,
+        "reportedPressure": 5
+      },
+      "rationale": "Risk 6/10: automation 7, weak-growth 4, routine-task 5, seniority 5, reported layoff pressure 5."
+    },
+    {
+      "role": "Field Service Engineer",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Field Service",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 89,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 2,
+        "seniorityVulnerability": 5,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 3, weak-growth 2, routine-task 2, seniority 5, reported layoff pressure 10."
+    },
+    {
+      "role": "Renewable Energy Project Manager",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Project / Program Management",
+      "risk": 4,
+      "risk_label": "Medium",
+      "demand_index": 74,
+      "components": {
+        "automation": 4,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 2,
+        "routineExposure": 3,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 4/10: automation 4, weak-growth 3, routine-task 3, seniority 2, reported layoff pressure 10."
+    },
+    {
+      "role": "Smart Meter Installation Technician",
+      "category": "Energy, Utilities & Telecom",
+      "family": "Field Service",
+      "risk": 5,
+      "risk_label": "Medium",
+      "demand_index": 85,
+      "components": {
+        "automation": 3,
+        "growthWeakness": 3,
+        "seniorityVulnerability": 8,
+        "routineExposure": 2,
+        "reportedPressure": 10
+      },
+      "rationale": "Risk 5/10: automation 3, weak-growth 3, routine-task 2, seniority 8, reported layoff pressure 10."
+    }
+  ]
+}

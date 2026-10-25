@@ -1,0 +1,79 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/health"
+  to = "/.netlify/functions/health"
+  status = 200
+
+[[redirects]]
+  from = "/api/config"
+  to = "/.netlify/functions/config"
+  status = 200
+
+[[redirects]]
+  from = "/api/geo"
+  to = "/.netlify/functions/geo"
+  status = 200
+
+[[redirects]]
+  from = "/api/analyze-meal"
+  to = "/.netlify/functions/analyze-meal"
+  status = 200
+
+[[redirects]]
+  from = "/api/send-invite"
+  to = "/.netlify/functions/send-invite"
+  status = 200
+
+[[redirects]]
+  from = "/api/vacancies"
+  to = "/.netlify/functions/vacancies"
+  status = 200
+
+[[redirects]]
+  from = "/webhooks/whatsapp"
+  to = "/.netlify/functions/whatsapp"
+  status = 200
+
+[[redirects]]
+  from = "/jobs/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/methodology"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/saved"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

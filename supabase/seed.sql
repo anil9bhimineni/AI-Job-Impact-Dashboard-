@@ -1,0 +1,2 @@
+-- Intentionally empty. Production-like labour-market records must come from reviewed ingestion runs.
+-- Add only clearly labelled local fixtures in a future test-only migration.
