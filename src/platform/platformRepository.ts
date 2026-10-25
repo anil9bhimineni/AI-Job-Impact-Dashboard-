@@ -164,3 +164,20 @@ export async function listVerifiedVacancies(filters: {
   if (error) throw error
   return z.array(vacancySchema).parse(data)
 }
+
+// Role-score feedback ("Does this score seem wrong?"). Anonymous visitors may insert with
+// submitted_by = null; signed-in users must insert with their own id (see score_disputes RLS).
+export async function submitScoreDispute(input: { slug: string; reason: string; country: string; modelVersion: string }) {
+  const client = requireSupabase()
+  const reason = z.string().trim().min(3).max(4000).parse(input.reason)
+  const occupationId = await occupationIdForSlug(input.slug)
+  const { data } = await client.auth.getSession()
+  const userId = data.session?.user?.id ?? null
+  const { error } = await client.from('score_disputes').insert({
+    occupation_id: occupationId,
+    submitted_by: userId,
+    submitter_email: data.session?.user?.email ?? null,
+    reason: `[${input.country} · model ${input.modelVersion}] ${reason}`,
+  })
+  if (error) throw error
+}

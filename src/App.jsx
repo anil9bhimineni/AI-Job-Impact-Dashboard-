@@ -42,7 +42,8 @@ import { learningResourcesFor } from './jobs-dashboard/learningResources.ts'
 import { careerPathRecommendation } from './jobs-dashboard/careerPathModel.ts'
 import { AccountMenu } from './platform/AccountMenu.tsx'
 import { CareerWorkspace } from './platform/CareerWorkspace.tsx'
-import { toggleWatchlistBySlug } from './platform/platformRepository.ts'
+import { submitScoreDispute, toggleWatchlistBySlug } from './platform/platformRepository.ts'
+import { isSupabaseConfigured } from './platform/supabaseClient.ts'
 import { usePlatformAuth } from './platform/usePlatformAuth.ts'
 import { CareerSafetyQuiz } from './jobs-dashboard/CareerSafetyQuiz.tsx'
 
@@ -1113,13 +1114,22 @@ function RoleFeedback({ role, country }) {
     event.preventDefault()
     if (!reason.trim()) { setStatus('invalid'); return }
     setStatus('saving')
+    const text = reason.trim()
+    // Two independent destinations: Supabase (score_disputes) and Netlify Forms. Either one succeeding counts.
+    const toSupabase = isSupabaseConfigured
+      ? submitScoreDispute({ slug: slugify(jobRole(role)), reason: text, country, modelVersion: ROLE_MODEL_VERSION })
+      : Promise.reject(new Error('Supabase not configured'))
+    const toNetlify = fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encodeForm({ 'form-name': 'role-score-feedback', role: jobRole(role), country, reason: text, model_version: ROLE_MODEL_VERSION, created_at: new Date().toISOString() }),
+    }).then((response) => { if (!response.ok) throw new Error(`Netlify form failed (${response.status})`) })
     try {
-      const response = await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encodeForm({ 'form-name': 'role-score-feedback', role: jobRole(role), country, reason: reason.trim(), model_version: ROLE_MODEL_VERSION, created_at: new Date().toISOString() }),
-      })
-      if (!response.ok) throw new Error(`Feedback failed (${response.status})`)
+      const results = await Promise.allSettled([toSupabase, toNetlify])
+      if (!results.some((result) => result.status === 'fulfilled')) {
+        results.forEach((result) => console.warn('[role-feedback]', result.reason?.message || result.reason))
+        throw new Error('No feedback destination accepted the submission')
+      }
       setStatus('saved')
       setReason('')
       trackEvent('role_score_feedback_submitted', { role: jobRole(role), country })
